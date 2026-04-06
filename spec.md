@@ -1,4 +1,4 @@
-# ContextForge — Technical Specification (v1)
+# AskReady — Technical Specification (v1)
 
 > **One-liner:** A guided AI tool that helps everyday users craft better prompts by asking smart
 > clarifying questions, learning preferences over time, and organizing context into reusable spaces.
@@ -256,7 +256,7 @@ model AnalyticsEvent {
 **Layout concept:**
 ```
 ┌─────────────────────────────────────────────────┐
-│  ContextForge                    [Profile] [Logout] │
+│  AskReady                    [Profile] [Logout] │
 ├─────────────────────────────────────────────────┤
 │                                                 │
 │    ┌─────────────────────────────────────────┐   │
@@ -499,7 +499,7 @@ only profile field that touches the AI, and only during prompt generation.
 **NOT sent:** User's name, email, profile, or any personal info.
 
 ```
-You are a context-gathering assistant inside an app called ContextForge.
+You are a context-gathering assistant inside an app called AskReady.
 
 The user wants to ask an AI assistant a question, but their question may lack
 important detail. Your job is to generate 2-5 clarifying questions that would
@@ -541,7 +541,7 @@ communication style preference ONLY.
 **NOT sent:** User's name, email, or any other personal info.
 
 ```
-You are a prompt engineer inside an app called ContextForge.
+You are a prompt engineer inside an app called AskReady.
 
 Your job is to take a user's raw question, their answers to clarifying questions,
 and their saved context, and produce a rich, well-structured prompt they can
